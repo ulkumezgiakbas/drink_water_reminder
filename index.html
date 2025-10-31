@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Drink Water — 2L</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="bg"></div>
+
+  <main class="wrap">
+    <header class="header">
+      <h1>Drink Water</h1>
+      <p class="subtitle">Günlük hedef: <b>2L</b></p>
+      <button id="reset" class="btn">↺ Sıfırla</button>
+    </header>
+
+    <!-- Büyük bardak -->
+    <section class="big-area">
+      <div class="glass" id="glass">
+        <!-- Sıvı -->
+        <div class="liquid" id="liquid">
+          <!-- dikişsiz çift dalga -->
+          <svg class="wave w1" viewBox="0 0 240 40" preserveAspectRatio="none">
+            <path d="M0 20 Q 30 10 60 20 T 120 20 T 180 20 T 240 20 V40 H0 Z"></path>
+          </svg>
+          <svg class="wave w2" viewBox="0 0 240 40" preserveAspectRatio="none">
+            <path d="M0 22 Q 30 14 60 22 T 120 22 T 180 22 T 240 22 V40 H0 Z"></path>
+          </svg>
+        </div>
+
+        <!-- yüzdelik metin (daima görünür) -->
+        <div id="percent" class="percent">0%</div>
+
+        <!-- kalan miktar kartı -->
+        <div id="remained" class="remained">
+          <span id="liters">2.0L</span>
+          <small>Kaldı</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- Küçük bardaklar -->
+    <section class="panel">
+      <p class="hint">İçtiğin her bardağa dokun (her biri <b>250 ml</b>).</p>
+      <div class="cups">
+        <button class="cup cup-small">250 ml</button>
+        <button class="cup cup-small">250 ml</button>
+        <button class="cup cup-small">250 ml</button>
+        <button class="cup cup-small">250 ml</button>
+        <button class="cup cup-small">250 ml</button>
+        <button class="cup cup-small">250 ml</button>
+        <button class="cup cup-small">250 ml</button>
+        <button class="cup cup-small">250 ml</button>
+      </div>
+    </section>
+
+    <footer class="footer">yourfavcoder • stay hydrated 💧</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
