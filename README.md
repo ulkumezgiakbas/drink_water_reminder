@@ -23,18 +23,6 @@ Animated Gradient Background (GPU-friendly blobs)
 ├── style.css
 └── script.js
 
-Quick Start
-# 1) Clone or download the folder
-# 2) Open index.html in your browser
-#    (or serve locally for best results)
-
-# Optional local server
-# Python 3:
-python -m http.server 8000
-# Node (if installed):
-npx serve .
-
-Then visit: http://localhost:8000
 
 License
 
